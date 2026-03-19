@@ -463,7 +463,7 @@ def parse_args() -> argparse.Namespace:
 
 def main():
     log_setup(
-        log_level=logging.DEBUG,
+        log_level=logging.DEBUG, # logging.INFO
         log_file='logs/application_run.log',
         log_term=False,
         max_bytes=50*1024*1024  # 50MB
